@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <!-- PPWCode -->
-    <PackageReference Include="PPWCode.Server.Core.Hangfire" Version="1.3.0-rc010013" />
+    <PackageReference Include="PPWCode.Server.Core.Hangfire" Version="1.*" />
   </ItemGroup>
 
 </Project>
