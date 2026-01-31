@@ -11,12 +11,6 @@ ProjectSection(SolutionItems) = preProject
 	README.md = README.md
 EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "psake", "psake", "{5EDD5A18-F63C-4E95-897C-FF91D33E5D6B}"
-ProjectSection(SolutionItems) = preProject
-	init-psake.ps1 = init-psake.ps1
-	psakefile.ps1 = psakefile.ps1
-EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{87F3A3E6-EAF8-4B2B-9D6F-655D5A96A1F2}"
 ProjectSection(SolutionItems) = preProject
 	src\Directory.Build.props = src\Directory.Build.props
