@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PPWCode.API.Core" />
+    <PackageReference Include="PPWCode.Vernacular.Exceptions.IV" />
     <PackageReference Include="Hangfire.Core" />
     <PackageReference Include="Castle.Windsor" />
   </ItemGroup>
