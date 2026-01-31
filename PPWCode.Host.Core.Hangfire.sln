@@ -5,7 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "package", "package", "{CBF205F6-D551-4DB1-AE22-25214925BB28}"
 ProjectSection(SolutionItems) = preProject
-	assets\ppwcode_logo.jpg = assets\ppwcode_logo.jpg
+	assets\ppw-logo-2.png = assets\ppw-logo-2.png
+	assets\ppw-logo.png = assets\ppw-logo.png
 	LICENSE = LICENSE
 	NOTICE = NOTICE
 	README.md = README.md
@@ -14,13 +15,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{87F3A3E6-EAF8-4B2B-9D6F-655D5A96A1F2}"
 ProjectSection(SolutionItems) = preProject
 	src\Directory.Build.props = src\Directory.Build.props
-	src\version.props = src\version.props
+	src\Directory.Packages.props = src\Directory.Packages.props
+	src\common.props = src\common.props
+	src\common-tests.props = src\common-tests.props
 EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "style-cop", "style-cop", "{6667573E-2F0D-47AF-ABEF-404878663E80}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "analyzers", "analyzers", "{6667573E-2F0D-47AF-ABEF-404878663E80}"
 ProjectSection(SolutionItems) = preProject
-	src\StyleCop.ruleset = src\StyleCop.ruleset
-	src\StyleCop-Tests.ruleset = src\StyleCop-Tests.ruleset
+	src\Analyzer.ruleset = src\Analyzer.ruleset
+	src\Analyzer-Tests.ruleset = src\Analyzer-Tests.ruleset
 EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPWCode.Host.Core.Hangfire", "src\PPWCode.Host.Core.Hangfire\PPWCode.Host.Core.Hangfire.csproj", "{A749E0D9-E6EB-4330-96FD-41FA4D712E2E}"
