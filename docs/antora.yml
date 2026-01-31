@@ -1,0 +1,5 @@
+name: ppwcode-host-core-hangfire
+title: PPWCode.Host.Core.Hangfire
+version: ~
+nav:
+- modules/ROOT/nav.adoc
