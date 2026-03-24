@@ -32,7 +32,7 @@
 
         <!-- castle -->
         <PackageVersion Include="Castle.Core" Version="4.*"/>
-        <PackageVersion Include="Castle.Windsor" Version="[5.1.1, 5.1.2]"/>
+        <PackageVersion Include="Castle.Windsor" Version="5.1.1"/>
 
         <!-- Hangfire -->
         <PackageVersion Include="Hangfire.Core" Version="1.7.*" />
